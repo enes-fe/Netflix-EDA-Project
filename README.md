@@ -3,7 +3,7 @@
 Bu proje, popüler streaming platformu Netflix'in içerik kütüphanesini (filmler ve TV şovları) incelemek amacıyla gerçekleştirilmiş bir Keşifsel Veri Analizi (EDA) çalışmasıdır. Projenin amacı, kütüphanenin yapısını anlamak, içerik trendlerini belirlemek ve platformun stratejisi hakkında içgörüler (insights) elde etmektir.
 
 **Veri Seti:** [Kaggle - Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
-**Kullanılan Araçlar:** Python, Pandas, Matplotlib, Seaborn, Google Colab
+**Kullanılan Araçlar:** Python, Pandas, Matplotlib, Seaborn, Google Colab, Google Gemini
 
 ---
 
@@ -44,5 +44,6 @@ En popüler 10 içerik türü (genre) incelendiğinde, 1. sırada "International
 Platforma eklenen içerik sayısı yıllara göre incelendiğinde, 2015-2019 arası "hiper-büyüme" dönemi yaşandığı görülmektedir. 2015'ten 2017'ye **yaklaşık 16 katlık** bir hacim artışı yaşanmıştır.
 
 Bu agresif büyüme 2019'da (~2000 içerik) zirveye ulaşmış, ancak Covid-19 pandemisinin neden olduğu **prodüksiyon problemleri** ve gecikmeli üretim nedeniyle 2021'e gelindiğinde, platforma eklenen içerik hacminde zirveye kıyasla **yaklaşık %25'lik bir düşüş** yaşanmıştır.
+
 
 ![Netflix'e Yıllara Göre Eklenen İçerik Sayısı](netflix_growth_over_time.png)
